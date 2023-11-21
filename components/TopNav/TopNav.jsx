@@ -20,7 +20,7 @@ const TopNav = () => {
           <h1>eBay Deals</h1>
           <h1>Find a Store</h1>
           <h1>Help</h1>
-          <div className="h-full text-white bg-red-600 px-1 flex items-center gap-2">
+          <div className="h-full text-white bg-red-500 p-1 flex items-center gap-2">
             <div>
               <p className="text-[10px]">20% off* Bosh</p>
               <p className="text-[8px]">T&C apply</p>

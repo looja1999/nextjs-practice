@@ -1,4 +1,6 @@
 import Content from '@/components/Content/Content'
+import ExclusiveDeal from '@/components/ExclusiveDeal/ExclusiveDeal'
+import Footer from '@/components/Footer/Footer'
 import Hero from '@/components/Hero/Hero'
 import ItemSlider from '@/components/ItemSlider/ItemSlider'
 import Layout from '@/components/Layout'
@@ -15,8 +17,11 @@ export default function Home() {
       <div className='flex flex-col gap-8'>
         <ItemSlider />
         <ItemSlider />
+        <ExclusiveDeal />
         <ItemSlider />
       </div>
+      <Footer />
+
 
     </main>
   )
